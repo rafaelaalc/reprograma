@@ -1,0 +1,140 @@
+ /* body { 
+    /* background-color: dodgerblue; 
+    background: url(../img/banner-bg.png);
+} */
+
+/* classe é tipo uma struct, e começa com . */
+
+/* .titulo {
+    font-size: 52px;
+} */
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* tag de link */
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+h3 {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.fatos {
+    margin-top: 50px;
+}
+
+.titulo {
+    margin: 20px;
+}
+
+.banner {
+    background-image: url(../img/euzinha-azul.png);
+    background-size: cover;
+    height: 100vh;  /*vh unidade de medida para imagem responsiva*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.botao {
+    background-color: whitesmoke;
+    color: rgb(33, 20, 104);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sobre {
+    margin: 24px;
+}
+
+.titulo-sobre {
+    margin: 20px;
+    text-align: center;
+    color: rgb(33, 20, 104);
+    font-size: 30px;
+}
+
+.sobre-flex {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
+}
+
+.sobre-discricao {
+    width: 40%;
+    margin-left: 130px;
+    /* background-color: rgb(140, 167, 206); */
+    color: rgb(33, 20, 104);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.sobre_habilidades {
+    text-align: center;
+    width: 40%;
+    margin-right: 130px;
+    background-color: rgb(33, 20, 104);
+    color: rgb(140, 167, 206);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.lista {
+    margin-bottom: 90px;
+    text-align: left;
+}
+
+.botao-sobre {
+    background-color: rgb(33, 20, 104);
+    border: rgb(140, 167, 206) solid 5px;
+    color: whitesmoke;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    margin-top: 62px;
+    margin-bottom: 30px;
+}
+
+.redes-links {
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(77, 83, 168);
+    width: 18%;
+    height: 200px;
+    margin: 16px;
+}
+
+.redes-links__img {
+    margin-bottom: 10px;
+}
+
+.redes-links__titulo {
+    margin-bottom: 16px;
+}
